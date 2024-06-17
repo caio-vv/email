@@ -1,9 +1,14 @@
 let usuarios = [
-  (usuario = {
+    {
     nome: "joao",
     email: "email@email.com",
     idade: "18",
-  }),
+  },
+  {
+    nome: "joao",
+    email: "email2@email.com",
+    idade: "18",
+  },
 ];
 console.log("digite o email do usuario");
 process.stdin.on("data", function (data) {
